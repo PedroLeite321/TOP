@@ -1,14 +1,28 @@
 :root {
     --dark-blue-color: #1f2937;
     --white-color: #ffffff;
-    --font-main-size: 48px #F9FAF8 weight:900;
+    --font-main-size: 48px;
     --font-main-color: #F9FAF8;
     --font-main-weight:  weight:900;
-    --secondary-txt: 18px #E5E7EB;
-    --header-logo-text: 24px #F9FAF8;
+    --secondary-txt-size: 18px;
+    --secondary-txt-color: #E5E7EB;
+    --header-logo-text: 24px;
+    --header-logo-color: #F9FAF8;
     --button-color-bkg: #3882F6;
     --info-head-txt: 36px color: #1F2937 weight: 900;
     --quote-bkg: #E5E7EB;
     --quote-txt: 36px light italic #1F2937;
+
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing:border-box;
 
 }
