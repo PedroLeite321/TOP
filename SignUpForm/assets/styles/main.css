@@ -1,0 +1,56 @@
+.wrap-content {
+    display:flex;
+    flex-direction: row;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    
+}
+
+.left-hero {
+    background: url(../images/crina-rt3Hkqyu_A8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex:1.5; /* equivalent to 40% */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    
+}
+
+.transparent_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.3);
+    width:100%;
+    height:10rem;
+
+}
+
+.left-section-header {
+    color:rgb(241, 241, 241);
+    font-size:4em;
+    font-family: "NorseBold", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-hero {
+    width:100px;
+    margin-right:1em;
+
+}
+
+.right-hero {
+    flex:2; /* equivalent to 40% */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem; /* about 32px */
+    min-width:400px;
+
+}
+
