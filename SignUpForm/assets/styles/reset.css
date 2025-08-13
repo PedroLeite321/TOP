@@ -3,6 +3,8 @@
 @font-face {
     font-family: NorseBold;
     src: url(../fonts/Norse-Bold.otf);
+    font-family: poppings;
+    src: url(../fonts/Poppins-Regular.ttf);
 }
 
 /* Nuke Bellow */
